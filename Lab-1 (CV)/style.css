@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Lato', sans-serif; */
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #e5e5e5;
+  display: grid;
+  place-items: center;
+}
+
+.cvPage {
+  width: 35%;
+  height: 46.5vw;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.4);
+}
+
+.header {
+  text-align: center;
+  padding: 0.1em;
+}
+
+.nameContainer {
+  font-size: 1.7vw;
+  padding: 0.1em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #404040;
+}
+
+.degreeContainer {
+  font-size: 0.9vw;
+  padding: 0.1em;
+}
+
+.infoContainer {
+  font-size: 0.9vw;
+  padding: 0.1em;
+}
+
+.horizontalLine {
+  width: 73%;
+  /* padding: 0% 5% 0% 0%; */
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  margin: -1% 5% 0% 0%;
+  float: right;
+}
+
+.headingStyle {
+  color: #3a5696;
+  margin: 6% 1% 0% 5%;
+}
+
+.synopsisText p {
+  margin: 2% 5% 2% 5%;
+}
+
+.skillRow h3 {
+  color: #000;
+  font-size: 14px;
+}
+
+.skillsArea {
+  padding: 10px 15px 0px 5px;
+  font-size: 12px;
+}
+
+.skillRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+  margin-bottom: 2px;
+
+}
+
+.title {
+  width: 10vw;
+}
+
+.description {
+  width: 30vw;
+}
+
+.synopsisContainer {
+  margin-top: -20px;
+}
+
+.synopsisContainer p {
+  font-size: 12px;
+  margin-left: 40px;
+}
+
+.projectContainer {
+  margin-top: -30px;
+}
+
+.projectRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.projectDetails {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  width: 60%;
+}
+.projectDetails h3 {
+  font-size: 14px;
+}
+
+.projectDetails h3:last-of-type {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.projectDetails ul {
+  margin-left: 40px;
+  font-size: 10px;
+}
+
+.educationContainer {
+  margin-top: -30px;
+}
+
+.educationRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.educationDetails {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  width: 60%;
+}
+
+.educationDetails h3 {
+  font-size: 14px;
+}
+
+.educationDetails ul {
+  margin-left: 40px;
+  font-size: 10px;
+}
+
+.aboutmeContainer {
+  margin-top: -20px;
+}
+
+.semester {
+  width: 40%;
+  display: flex;
+  justify-content: end;
+  padding-right: 20px;
+}
+
+.semester p {
+  font-size: 12px;
+}
+
+.degreeContainer h3{
+  color: #3a5696;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.infoContainer h3 {
+  color: #404040;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.infoContainer h3:last-of-type {
+  margin-top: 2px;
+  color: #404040;
+  font-size: 11px;
+  font-weight: 600;
+}
